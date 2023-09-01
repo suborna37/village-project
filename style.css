@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: rgb(5, 92, 92);
+}
+.chad{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 80px;
+    left: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 5;
+}
+.chad2{
+    background-color: rgb(5, 92, 92);
+    left: 210px;
+    top: 60px;
+}
+.chala{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 500px;
+    top: 200px;
+    background-color: rgb(199, 218, 28);
+    border-radius: 50%;
+    z-index: 3;
+}
+.chala2{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(5, 92, 92);
+  top: 90px;
+  z-index: 5;
+}
+.ghor{
+    position: absolute;
+    height: 150px;
+    width: 220px;
+    background-color: rgb(243, 198, 140);
+    z-index: 6;
+    top: 90px;
+    left: 40px;
+}
+.door{                                                                                                                  
+    position: absolute;
+    height: 70px;
+    width: 45px;
+    background-color: rgb(129, 75, 5);
+    z-index: 8;
+    bottom: 2px;
+    left: 145px;
+  }
+  .window{
+       position: absolute;
+       height: 30px;
+       width: 50px;
+       background-color:rgb(129, 75, 5) ;
+       bottom: 43px;
+       left: 45px;
+  }
+.siri{
+    position: absolute;
+    height: 20px;
+    width: 240px;
+    background-color: rgb(129, 75, 5);
+    top: 430px;
+    left: 530px;
+    z-index: 7;
+}
+.tree{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 200px;
+    left: 740px;
+    z-index: 9;
+    background-color: green;
+    border-radius: 50%
+}
+.p1{
+    position: absolute;
+    left: 810px ;
+    top: 190px;
+}
+.p2{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 130px;
+    left: 790px; 
+}
+.p3{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 150px;
+    left: 825px;
+}
+.p4{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+.gach{
+    position: absolute;
+    height: 150px;
+    width: 15px;
+    background-color: rgb(104, 46, 4);
+    top: 250px;
+    left: 820px;
+}
